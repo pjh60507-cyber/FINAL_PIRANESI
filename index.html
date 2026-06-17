@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PIRANESI — 피라네시 · 수재나 클라크</title>
+  <meta name="description" content="기억을 잃은 한 남자, 그리고 그가 기록한 세계. 수재나 클라크의 『피라네시』." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- 세 페이지 동일 폰트 로드 (영문 세리프 통일: Cormorant Garamond) -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif+KR:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav">
+    <a href="index.html" class="nav__brand">피라네시</a>
+    <ul class="nav__links">
+      <li><a href="house.html">The House</a></li>
+      <li><a href="journal.html">The Journal</a></li>
+      <li><a href="#author">Author</a></li>
+      <li><a href="#Typeflyer">More</a></li>
+    </ul>
+    <a href="https://product.kyobobook.co.kr/detail/S000001029413" target="_blank" rel="noopener noreferrer" class="nav__cta">책 구매하기</a>
+    <button class="nav__toggle" aria-label="메뉴 열기">MENU</button>
+  </nav>
+
+  <!-- ===== HERO (밝고 신성한) ===== -->
+  <header class="hero">
+    <img class="hero__bg" src="assets/img/hero-sacred.png" alt="빛이 쏟아지는 거대한 대리석 돔의 홀" />
+    <div class="hero__inner">
+      <span class="eyebrow hero__eyebrow">수재나 클라크 장편소설</span>
+      <!-- 영문 워드마크(세리프) + 한글 워드마크 -->
+      <h1 class="hero__title">PIRANESI</h1>
+      <p class="hero__kr">피라네시</p>
+      <p class="hero__sub">집은 무한하다. 빛이 스미는 끝없는 홀과 조수에 잠긴 계단,<br />그리고 그 사이에 남겨진 단 하나의 기억.</p>
+      <a href="journal.html" class="btn btn--solid">이 집을 탐험 하시겠습니까?</a>
+    </div>
+    <div class="hero__scroll">Scroll</div>
+  </header>
+
+  <!-- ===== OPENING (주인공의 첫 기록 — 제일 첫 화면 발췌) ===== -->
+  <section class="section opening container">
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro container">
+    <span class="eyebrow" data-reveal>The Story</span>
+    <h2 class="intro__title" data-reveal data-delay="1">기억을 잃은 한 남자,<br />그리고 그가 기록한 세계.</h2>
+    <p class="intro__text" data-reveal data-delay="2">
+      그는 자신을 '피라네시'라 부르지 않는다. 그저 집을 거닐며 밀물과 썰물을 기록하고,
+      대리석 조각상들의 이름을 짓는다. 이곳이 세계의 전부라 믿으며—.
+    </p>
+  </section>
+
+  <!-- ===== INDEX (monopo식 호버 리스트) ===== -->
+  <section class="section container">
+    <span class="eyebrow" data-reveal>Index · 색인</span>
+    <div class="index" data-reveal data-delay="1" style="margin-top:1.5rem">
+      <a class="index__row" href="house.html" data-img="assets/img/card-house.png">
+        <span class="index__num">01</span>
+        <span class="index__title">궁전</span>
+        <span class="index__en">The House</span>
+        <span class="index__arrow">→</span>
+      </a>
+      <a class="index__row" href="journal.html" data-img="assets/img/card-journal.png">
+        <span class="index__num">02</span>
+        <span class="index__title">기록</span>
+        <span class="index__en">The Journal</span>
+        <span class="index__arrow">→</span>
+      </a>
+      <div class="index__row index__row--locked" data-img="assets/img/card-truth.png">
+        <span class="index__num">03</span>
+        <span class="index__title">진실</span>
+        <span class="index__en">The Truth</span>
+        <span class="index__lockedlabel">Locked</span>
+      </div>
+    </div>
+    <div class="index__preview"><img src="" alt="" /></div>
+  </section>
+
+  <!-- ===== QUOTE ===== -->
+  <section class="theme-paper2 quote">
+    <div class="container">
+      <span class="eyebrow" data-reveal>From the Journal</span>
+      <p class="quote__text" data-reveal data-delay="1">
+        “The Beauty of the House is immeasurable;<br />its Kindness infinite.”
+        <span class="kr">집의 아름다움은 헤아릴 수 없고, 그 친절은 끝이 없다.</span>
+      </p>
+      <p class="quote__cite" data-reveal data-delay="2">— Piranesi’s Journal — </p>
+    </div>
+  </section>
+
+  <!-- ===== TRAILER (→ YouTube) ===== -->
+
+<!-- 3. trailer (유튜브 연결) -->
+<section id="Typeflyer" class="section work">
+  <div class="container work__grid">
+    <!-- 왼쪽: 소제목 + 설명 -->
+    <div class="work__text" data-reveal>
+      <span class="eyebrow">Typeflyer</span>
+      <h3 class="work__title">타입 플라이어</h3>
+      <p class="work__desc">
+        무한히 반복되는 홀의 구조를 'HOUSE'라는 단어의 반복적인 배치를 통해 표현하여, 끝없이 이어지는 공간감을 시각화하였다.
+         또한 제목 아래에 물이 흩어지는 듯한 효과를 적용해 작품 속에서 물이 중요한 요소로 자주 등장한다는 점을 간접적으로 나타내었다.
+      </p>
+    </div>
+
+    <!-- 오른쪽: 이미지 -->
+    <a class="work__media" href="#" data-reveal data-delay="1">
+      <img src="assets/img/typeflyer.jpg" alt="타이포그래피 플라이어" />
+    </a>
+
+  </div>
+</section>
+
+
+  <!-- ===== AUTHOR ===== -->
+  <section id="gif" class="section work">
+  <div class="container work__grid">
+    <div class="work__text" data-reveal>
+      <span class="eyebrow">GIF Animation</span>
+      <h3 class="work__title"> 끝없이 이어진 홀</h3>
+      <p class="work__desc">
+        끝없이 이어지는 미궁의 집을 반복적인 공간 구조로 시각화하였다. 또한 '미궁의 집으로 초대한다'라는 문구가 끊어지는 듯한 느낌을 주어 미스터리한 분위기를 나타내고자 하였다. 
+        첫 화면에서 'PIRANESI' 글자가 물결치듯 움직이는데 이 또한 물의 등장을 간접적으로 표현한것이다.<div class=""></div><div class=""></div>
+      </p>
+    </div>
+    <a class="work__media" href="#" data-reveal data-delay="1">
+      <img src="assets/img/infinite.gif" alt="움직이는 미궁 애니메이션" />
+    </a>
+  </div>
+</section>
+
+<section id="trailer" class="section work">
+  <div class="container work__grid">
+
+    <!-- 왼쪽: 소제목 + 설명 -->
+    <div class="work__text" data-reveal>
+      <span class="eyebrow">Book Trailer</span>
+      <h3 class="work__title">북 트레일러</h3>
+      <p class="work__desc">
+        실제로 그 공간 속에 들어선다면 어떤 느낌일지 상상하며 구성하였다. 
+        실제 영상과 생성 이미지를 활용해  피라네시의 시점에서 신비롭고 거대한 미궁의 집을 미리 경험할 수 있다.
+      </p>
+    </div>
+
+    <!-- 오른쪽: 썸네일 + 재생 버튼 (유튜브 새 탭) -->
+    <a class="work__media work__media--video"
+       href="https://www.youtube.com/watch?v=UggPg6CHNbs"
+       target="_blank" rel="noopener noreferrer"
+       data-reveal data-delay="1">
+      <img src="assets/img/Thumnail.png" alt="피라네시 북트레일러" />
+      <span class="work__play" aria-hidden="true">▶</span>
+    </a>
+
+  </div>
+</section>
+
+
+
+ <!-- ===== AUTHOR ===== -->
+  <section id="author" class="theme-paper2 section">
+    <div class="container author">
+      <div class="author__media" data-reveal>
+        <img src="assets/img/author.png" alt="작가 수재나 클라크 사진" />
+      </div>
+      <div class="author__body" data-reveal data-delay="1">
+        <span class="eyebrow">The Author</span>
+        <h2 class="author__name">Susanna Clarke<small>수재나 클라크</small></h2>
+        <p class="author__bio">
+        영국 노팅엄 출신의 소설가.<br />
+        『조나단 스트레인지와 마법사 노렐』로 세계적인 명성을 얻었으며,
+        이후 16년의 침묵 끝에 『피라네시』를 발표해 2021년 여성문학상을 수상했다.
+        <br>그녀의 작품은 신화와 역사, 기억과 상상력이 교차하는 독특한 세계를 구축하며,
+        거대한 공간 속에서 인간 존재와 고독, 그리고 경이로움을 탐구한다.
+        현실과 환상의 경계를 섬세하게 넘나드는 문체로 현대 판타지 문학의
+        새로운 가능성을 보여준 작가로 평가받는다.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BUY (→ 교보문고) ===== -->
+  <section id="buy" class="theme-dark section buy">
+    <div class="container">
+      <span class="eyebrow" data-reveal>Buy the Book</span>
+      <div class="buy__grid">
+        <a class="book book--mockup" data-reveal href="https://product.kyobobook.co.kr/detail/S000001029413" target="_blank" rel="noopener noreferrer" aria-label="교보문고에서 피라네시 구매">
+          <img class="book__img" src="assets/img/book-cover.png" alt="피라네시 책 표지 — 수재나 클라크 지음, 김해온 옮김, 흐름출판" />
+        </a>
+        <div class="buy__info" data-reveal data-delay="1">
+          <h3>수재나 클라크『 피라네시 』</h3>
+          <p>출판<br />흐름출판</p>
+          <p>발행<br />2021.10.25</p>
+          <p>SF 판타지소설<br />양장 · 320쪽</p>
+          <a href="https://product.kyobobook.co.kr/detail/S000001029413" target="_blank" rel="noopener noreferrer" class="btn btn--solid">교보문고에서 구매하기 →</a>
+          <div class="buy__stores">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wordmark"></div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <a href="house.html">The House · 궁전</a>
+          <a href="journal.html">The Journal · 기록</a>
+          <a href="#author">Author · 작가</a>
+          <a href="#trailer">Trailer · 트레일러</a>
+        </div>
+        <div class="footer__col">
+          <h4>Buy</h4>
+          <a href="https://product.kyobobook.co.kr/detail/S000001029413" target="_blank" rel="noopener noreferrer">교보문고</a>
+        </div>
+        <div class="footer__col">
+          <h4>Watch</h4>
+          <a href="https://www.youtube.com/watch?v=UggPg6CHNbs" target="_blank" rel="noopener noreferrer">북 트레일러 (YouTube)</a>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Piranesi House. All rights reserved. 이미지생성: 제미나이, 챗GPT 글 수정: 챗GPT 웹페이지도구: FRAMER, 클로드
+        </span>
+        <div class="footer__social">
+          <a href="https://www.youtube.com/watch?v=UggPg6CHNbs" target="_blank" rel="noopener noreferrer" class="link">YouTube</a>
+          <a href="https://product.kyobobook.co.kr/detail/S000001029413" target="_blank" rel="noopener noreferrer" class="link">Kyobo</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
